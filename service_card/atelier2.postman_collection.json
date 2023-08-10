@@ -1,0 +1,218 @@
+{
+	"info": {
+		"_postman_id": "57183f11-a919-4eb8-b16c-00bc62a8d2eb",
+		"name": "Cours",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "14797627"
+	},
+	"item": [
+		{
+			"name": "auth",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"username\" : \"nicolas\",\n    \"password\" : \"123+aze\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/auth",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"auth"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "insert card",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"name\" : \"carabaffe\",\n    \"hp\" : 50,\n    \"defence\" : 50,\n    \"attack\" : 40,\n    \"url\" : \"url\",\n    \"forSale\" : false,\n    \"userId\" : 1\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/addCard",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"addCard"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "insert user",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"password\" : \"test\",\n    \"user\" : \"user\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/createUser",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"createUser"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "delete card",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"username\" : \"nicolas\",\n    \"password\" : \"123+aze\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/cards/delete/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"cards",
+						"delete",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get cards by user id",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"username\" : \"test\",\n    \"password\" : \"123+aze\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/cards/2",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"cards",
+						"2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get card",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"username\" : \"test\",\n    \"password\" : \"123+aze\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/card/2",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"card",
+						"2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "List card for sale",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"username\" : \"test\",\n    \"password\" : \"123+aze\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/transaction/sell/3",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"transaction",
+						"sell",
+						"3"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
