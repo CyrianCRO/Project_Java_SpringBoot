@@ -21,7 +21,11 @@ public class UserService {
 		return uRepo.findAll().stream()
 				.map(user -> new CardUserDTO(user.getId(), user.getUsername()))
 				.collect(Collectors.toList());
+
+
 	}
+
+
 		
 	public CardUser getUserByUsername(String username) {
 		CardUser user = uRepo.findByUsername(username);

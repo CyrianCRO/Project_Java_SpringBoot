@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/public_lib/pom.xml" />
+        <option value="$PROJECT_DIR$/service_auth/pom.xml" />
+        <option value="$PROJECT_DIR$/service_card/pom.xml" />
+        <option value="$PROJECT_DIR$/service_game/pom.xml" />
+        <option value="$PROJECT_DIR$/service_user/pom.xml" />
+        <option value="$PROJECT_DIR$/service_transac/pom.xml" />
+        <option value="$PROJECT_DIR$/service_user_V2/pom.xml" />
+        <option value="$PROJECT_DIR$/market_service/pom.xml" />
+        <option value="$PROJECT_DIR$/user_proxy_service/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_19" project-jdk-name="openjdk-21" project-jdk-type="JavaSDK" />
+</project>

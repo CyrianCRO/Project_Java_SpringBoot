@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/api_gateway/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/api_gateway/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/market_service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/market_service/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/public_lib/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/service_auth/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/service_card/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/service_discovery/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/service_discovery/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/service_game/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/service_transac/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/service_user/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/service_user_V2/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/user_proxy_service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/user_proxy_service/src/main/resources" charset="UTF-8" />
+  </component>
+</project>

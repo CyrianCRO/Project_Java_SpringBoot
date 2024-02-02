@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marketplace UI</title>
+    <link rel="stylesheet" href="market.css">
+</head>
+<body>
+<nav class="navbar">
+    <div class="container">
+        <a href="user.html">Login</a>
+        <div class="user-info">
+            <span id="userName">Name</span>
+            <span id="userMoney">Money: $0</span>
+        </div>
+    </div>
+</nav>
+<h1>Card Marketplace</h1>
+
+
+
+<div>
+    <button onclick="getCard()">Get Card</button>
+    <label for="getCardId">Card ID:</label>
+    <input type="text" id="getCardId" placeholder="Enter Card ID">
+</div>
+
+
+
+<div class="container">
+    <button onclick="createCard()">List All Cards</button>
+    <div id="cardContainer"></div>
+</div>
+
+
+<script src="market.js"></script>
+</body>
+</html>

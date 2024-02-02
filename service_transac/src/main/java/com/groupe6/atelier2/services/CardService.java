@@ -1,11 +1,13 @@
 package com.groupe6.atelier2.services;
 
 import java.util.ArrayList;
+import java.util.List;
 import java.util.Optional;
 
 
 import javax.transaction.Transactional;
 
+import org.apache.catalina.LifecycleState;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -43,6 +45,11 @@ public class CardService {
 	public void listForSale(int cardId) {
 		Optional<Card> card = cRepo.findById(cardId);
 		card.get();
+	}
+
+
+	public List<Card> listAllCards() {
+		return  cRepo.findAll();
 	}
 	
     public Card updateCardUser(CardUser user, Integer idCard) {

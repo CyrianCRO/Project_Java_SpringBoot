@@ -1,0 +1,4 @@
+INSERT INTO CARD_USER VALUES(1, 2000, '123+aze', 'bernardinho');
+INSERT INTO CARD_USER VALUES(2, 2400, '123+aze', 'nicolas');
+INSERT INTO CARD_USER VALUES(3, 4500, '123+aze', 'andre');
+
