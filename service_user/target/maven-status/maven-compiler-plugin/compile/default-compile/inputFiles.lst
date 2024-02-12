@@ -1,6 +1,0 @@
-/home/cyrian/perso/Project_Java_SpringBoot/service_user/src/main/java/com/groupe6/atelier3/user/Application.java
-/home/cyrian/perso/Project_Java_SpringBoot/service_user/src/main/java/com/groupe6/atelier3/user/models/CardUser.java
-/home/cyrian/perso/Project_Java_SpringBoot/service_user/src/main/java/com/groupe6/atelier3/user/repo/UserRepository.java
-/home/cyrian/perso/Project_Java_SpringBoot/service_user/src/main/java/com/groupe6/atelier/user/controllers/UserRestCrt.java
-/home/cyrian/perso/Project_Java_SpringBoot/service_user/src/main/java/com/groupe6/atelier3/user/services/UserService.java
-/home/cyrian/perso/Project_Java_SpringBoot/service_user/src/main/java/com/groupe6/atelier3/user/models/CardUserDTO.java
