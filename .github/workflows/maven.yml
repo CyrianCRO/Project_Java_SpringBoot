@@ -28,11 +28,11 @@ jobs:
           distribution: temurin
           cache: maven
 
-      - name: Install Dependencies
+      - name: Install and Build All Maven Projects
         run: |
-          find . -name pom.xml -not -path "./pom.xml" -exec dirname {} \; | while read dir; do
-            echo "Installing dependencies in $dir"
-            (cd "$dir" && mvn install -DskipTests)
+          find . -name pom.xml | grep -v './pom.xml' | sed 's|/[^/]*$||' | sort -u | while read dir; do
+            echo "Building project in $dir"
+            (cd "$dir" && mvn -B install -DskipTests)
           done
 
       - name: Build with Maven
