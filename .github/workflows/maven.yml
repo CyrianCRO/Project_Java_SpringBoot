@@ -28,6 +28,13 @@ jobs:
           distribution: temurin
           cache: maven
 
+      - name: Install Dependencies
+        run: |
+          find . -name pom.xml -not -path "./pom.xml" -exec dirname {} \; | while read dir; do
+            echo "Installing dependencies in $dir"
+            (cd "$dir" && mvn install -DskipTests)
+          done
+
       - name: Build with Maven
         run: |
           find . -name pom.xml -not -path "./pom.xml" -exec dirname {} \; | while read dir; do
